@@ -9,11 +9,24 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var shapeAray = [Shape]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+                
+        createNewShape(nameShape: .rectangle)
+        createNewShape(nameShape: .square)
+        shapeAray.forEach { (shape) in
+            shape.draw()
+        }
     }
-
-
+    
+    func createNewShape(nameShape: Shapes) -> Shape {
+        let newShape = FactoryShapes().createShape(nameShape: nameShape)
+        shapeAray.append(newShape)
+        return newShape
+    }
+    
+    
 }
 

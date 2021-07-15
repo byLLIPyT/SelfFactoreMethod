@@ -16,6 +16,7 @@
 		AB4C5D4926A0025200ED4FB4 /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4C5D4826A0025200ED4FB4 /* Shape.swift */; };
 		AB4C5D5026A002E100ED4FB4 /* Sqaure.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4C5D4F26A002E100ED4FB4 /* Sqaure.swift */; };
 		AB4C5D5326A0032100ED4FB4 /* Rectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4C5D5226A0032100ED4FB4 /* Rectangle.swift */; };
+		AB4C5D5626A003D900ED4FB4 /* FactoryShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4C5D5526A003D900ED4FB4 /* FactoryShapes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		AB4C5D4826A0025200ED4FB4 /* Shape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
 		AB4C5D4F26A002E100ED4FB4 /* Sqaure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sqaure.swift; sourceTree = "<group>"; };
 		AB4C5D5226A0032100ED4FB4 /* Rectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rectangle.swift; sourceTree = "<group>"; };
+		AB4C5D5526A003D900ED4FB4 /* FactoryShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryShapes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,15 +67,32 @@
 				AB4C5D3226A0013900ED4FB4 /* AppDelegate.swift */,
 				AB4C5D3426A0013900ED4FB4 /* SceneDelegate.swift */,
 				AB4C5D3626A0013900ED4FB4 /* ViewController.swift */,
-				AB4C5D4F26A002E100ED4FB4 /* Sqaure.swift */,
-				AB4C5D5226A0032100ED4FB4 /* Rectangle.swift */,
-				AB4C5D4826A0025200ED4FB4 /* Shape.swift */,
+				AB4C5D5826A005F900ED4FB4 /* Shapes */,
+				AB4C5D5926A0060200ED4FB4 /* Factory */,
 				AB4C5D3826A0013900ED4FB4 /* Main.storyboard */,
 				AB4C5D3B26A0013B00ED4FB4 /* Assets.xcassets */,
 				AB4C5D3D26A0013B00ED4FB4 /* LaunchScreen.storyboard */,
 				AB4C5D4026A0013B00ED4FB4 /* Info.plist */,
 			);
 			path = SelfFactoreMethod;
+			sourceTree = "<group>";
+		};
+		AB4C5D5826A005F900ED4FB4 /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				AB4C5D4F26A002E100ED4FB4 /* Sqaure.swift */,
+				AB4C5D5226A0032100ED4FB4 /* Rectangle.swift */,
+				AB4C5D4826A0025200ED4FB4 /* Shape.swift */,
+			);
+			path = Shapes;
+			sourceTree = "<group>";
+		};
+		AB4C5D5926A0060200ED4FB4 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				AB4C5D5526A003D900ED4FB4 /* FactoryShapes.swift */,
+			);
+			path = Factory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +170,7 @@
 				AB4C5D3326A0013900ED4FB4 /* AppDelegate.swift in Sources */,
 				AB4C5D5326A0032100ED4FB4 /* Rectangle.swift in Sources */,
 				AB4C5D3526A0013900ED4FB4 /* SceneDelegate.swift in Sources */,
+				AB4C5D5626A003D900ED4FB4 /* FactoryShapes.swift in Sources */,
 				AB4C5D4926A0025200ED4FB4 /* Shape.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
